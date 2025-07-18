@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Conrado Cuevas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /*
+         * 80s Retro Styling (Synthwave Vibe)
+         * This CSS block uses a turquoise background with dark, transparent boxes.
+        */
+        :root {
+            --background-color: #40E0D0; /* Turquoise as the primary background */
+            --body-text-color: #FFFFFF;      /* White text for high contrast */
+            --fuchsia-accent: #FF007F;   /* Fuchsia as the primary accent */
+            --yellow-accent: #f3ea5f;    /* Bright yellow for links */
+            --fuchsia-shadow: #B30059;   /* A darker fuchsia for shadows */
+        }
+
+        html {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--body-text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--fuchsia-accent); /* Fuchsia title pops on turquoise */
+        }
+        
+        .research-section h2 {
+            font-size: 2rem;
+            color: var(--body-text-color); /* White section titles */
+            border-bottom: 3px solid var(--fuchsia-accent); /* Fuchsia underline */
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        .paper-entry {
+            background-color: rgba(0, 0, 0, 0.2); /* Dark, semi-transparent background */
+            color: var(--body-text-color); /* Text inside is white */
+            padding: 25px; /* Restored padding for internal space */
+            margin-bottom: 30px;
+            border-radius: 8px; /* Rounded corners for the box */
+        }
+
+        .paper-entry h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .paper-title-link {
+            color: var(--body-text-color); /* Title is white */
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .paper-title-link:hover {
+            color: var(--fuchsia-accent); /* Title turns fuchsia on hover */
+            text-decoration: underline;
+        }
+
+        .paper-authors {
+            font-style: italic;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+        }
+
+        .paper-authors a {
+            color: var(--yellow-accent); /* Yellow links for high contrast */
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        .paper-authors a:hover {
+            color: var(--fuchsia-accent);
+        }
+
+        .journal-info {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .paper-abstract {
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
+        .home-button-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--fuchsia-accent); /* Fuchsia button */
+            color: #FFFFFF; /* White text on the button */
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            border: 2px solid var(--fuchsia-shadow);
+            box-shadow: 5px 5px 0px var(--fuchsia-shadow);
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 8px 8px 0px var(--fuchsia-shadow);
+        }
+
+        .button:active {
+            transform: translateY(2px);
+            box-shadow: 2px 2px 0px var(--fuchsia-shadow);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="page-title">Research</h1>
+
+        <!-- Publications Section -->
+        <section class="research-section">
+            <h2>Publications</h2>
+
+            <div class="paper-entry">
+                <h3><a href="https://link.springer.com/article/10.1007/s00355-024-01526-1" class="paper-title-link">Private provision of public goods under price uncertainty: a comment</a></h3>
+                <p class="paper-authors">
+                    with <a href="http://ebdv.free.fr/public/index.php">Etienne Billette de Villemeur</a> and <a href="https://sebacea.info/"> Sebastián Cea-Echenique</a>
+                </p>
+                <p class="journal-info">
+                     Social Choice and Welfare, 2024
+                </p>
+                <p class="paper-abstract">
+                    We revise a result stating that there is a positive relationship between contributions and welfare in a public good provision game under price uncertainty (Gradstein et al. Soc Choice Welf 10(4):371–382, 1993). The authors state in Proposition 3 that welfare decreases when price uncertainty induces a reduction in private contributions. By contrast, we show that, under certain conditions, a reduction in contributions can be associated with an improvement in consumer welfare. This result is important because public policy regarding the provision of public goods is often based on indicators such as citizen participation, which, as this note shows, may constitute a misleading signal.
+                </p>
+            </div>
+
+            <div class="paper-entry">
+                <h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S1566014123000560" class="paper-title-link">When financial advice rocks the market</a></h3>
+                <p class="paper-authors">
+                    with <a href="https://economics.illinois.edu/profile/danber">Dan Bernhardt</a>
+                </p>
+                <p class="journal-info">
+                    Emerging Markets Review, 2023
+                </p>
+                <p class="paper-abstract">
+                    We document the impact of recommendations by a hugely influential Chilean pension advisor, H&L, on pension investments by individuals, domestic stock market outcomes, and pension fund manager investment strategies. Following H&L's retirement portfolio recommendations, pension investors shifted amounts that, in a week, often exceeded 100% of monthly domestic stock trading volume. The market believed the recommendations—domestic stock prices responded, but they did so without trade: the massive portfolio shifts did not generate abnormally-high trading volume. To accommodate H&L's impact, pension managers adjusted portfolio compositions, making them more similar, and shifted holdings of liquid assets rather than domestic stocks.
+                </p>
+            </div>
+
+            <div class="paper-entry">
+                <h3><a href="https://onlinelibrary.wiley.com/doi/10.1111/caje.12684" class="paper-title-link">Followers of the pied piper of pensioners</a></h3>
+                <p class="paper-authors">
+                    with <a href="https://economics.illinois.edu/profile/danber">Dan Bernhardt</a> and <a>Mario Sanclemente</a>
+                </p>
+                <p class="journal-info">
+                    Canadian Journal of Economics, 2023
+                </p>
+                <p class="paper-abstract">
+                    Using survey and administrative data, we study followers of H&L, a massively popular Chilean pension advisor, establishing that financial literacy is not a panacea for poor retirement decision-making. We detail the dynamics of who followed H&L and why. H&L differentially drew financially sophisticated investors, and exposure to H&L causally increased financial sophistication. Nonetheless, followers earned mean annual returns below all buy-and-hold strategies and were aware of this underperformance. Moreover, performance did not materially affect renewal rates. Most followers renew, citing high returns, loss minimization and trust as reasons for following. We show followers gained information about financial matters that had clear, tangible value, and they acted on this information. We posit that followers attributed this to H&L's skill, thus continuing to follow despite the underperformance.
+                </p>
+            </div>
+        </section>
+
+        <!-- Work in Progress Section -->
+        <section class="research-section">
+            <h2>Work in Progress</h2>
+
+            <div class="paper-entry">
+                <h3>Technology catch-up and welfare in a small, open economy</h3>
+                <p class="paper-authors">
+                    with <a>Matías Fuentes</a> and <a>Nicolás Lillo-Bustos</a>
+                </p>
+                <p class="paper-abstract">
+                    Technological progress can hurt all generations in a small, open, overlapping generations economy. Technological progress in the tradable sector leads to higher wages and higher prices in the non-tradable sector. If tradable goods represent a significant share of wealth, adverse effects dominate, and technological progress harms the welfare of all generations. If technology grows at an increasing pace, it can exacerbate the problem. Fiscal and industrial policies, such as fostering technological progress in the non-tradable sector, can mitigate the problem. Our work suggests that since technological progress is not always welfare-enhancing, policy interventions may be required to ensure intergenerational equity.
+                </p>
+            </div>
+
+            <div class="paper-entry">
+                <h3>Public Good, Private Harm? The Value of Information in Public Good</h3>
+                <p class="paper-authors">
+                   with <a href="http://ebdv.free.fr/public/index.php">Etienne Billette de Villemeur</a> and <a href="https://sebacea.info/"> Sebastián Cea-Echenique</a> 
+                </p>
+                <p class="paper-abstract">
+                    This paper analyzes the value of public information in a canonical general equilibrium model of voluntary public good provision. We ask: what are the welfare effects of a public signal about a project's productivity in an economy with a free-riding externality? Our central finding is a stark divergence between the social and private value of information. First, public information is always socially (weakly) beneficial, as a planner who internalizes the externality can use it to improve resource allocation. Second, for private strategic agents, the value of public information can be negative. We decompose the private value into a positive ''smoothing effect,'' which allows agents to better tailor their actions to fundamentals, and a ''strategic externality effect,'' which alters the incentive to free-ride. The private value of information becomes negative when the strategic effect, by exacerbating free-riding, dominates the smoothing benefit. This result, which depends on agent preferences and the public good's technology, identifies a new channel through which transparency can be privately harmful in second-best economies.
+                </p>
+            </div>
+        </section>
+
+        <div class="home-button-container">
+            <a href="index.html" class="button">Back Home</a>
+        </div>
+    </div>
+</body>
+</html>

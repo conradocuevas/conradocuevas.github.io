@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conrado's Personal Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /*
+         * 80s Retro Styling
+         * This CSS block defines the visual appearance of the page,
+         * using an 80s-inspired color palette and minimalist layout.
+        */
+        :root {
+            --background-color: #FF007F; /* A vibrant fuchsia/hot pink */
+            --text-color: #FFFFFF;       /* White for high contrast */
+            --button-bg: #40E0D0;        /* A bright turquoise/cyan */
+            --button-text: #000000;      /* Black for button text readability */
+            --button-shadow: #004D40;    /* A darker teal for button shadow */
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Poppins', sans-serif; /* A clean, modern sans-serif font */
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex; /* Using flexbox to center content */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2em;
+        }
+
+        .links-container {
+            display: flex; /* Using flexbox to place buttons side-by-side */
+            justify-content: center;
+            gap: 20px; /* Space between the buttons */
+            flex-wrap: wrap; /* Allows buttons to stack on smaller screens */
+        }
+
+        .button {
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            border: 2px solid var(--button-text);
+            box-shadow: 5px 5px 0px var(--button-shadow);
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 8px 8px 0px var(--button-shadow);
+        }
+
+        .button:active {
+            transform: translateY(2px);
+            box-shadow: 2px 2px 0px var(--button-shadow);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main heading and introductory text -->
+        <h1>Conrado Cuevas</h1>
+        <p>Hello and welcome! I'm an Assistant Professor at INCAE Business School, where I teach courses in Economics, Finance, and Data Analysis. My research focuses on applied microeconomic theory and financial economics. You can contact me at conrado.cuevas🙂incae.edu.</p>
+
+        <div class="links-container">
+            <!-- Link to download your CV. Make sure 'CCcv.pdf' is in the same directory. -->
+            <a href="CCcv.pdf" download class="button">CV</a>
+
+            <!-- Link to your research page. Update '#' with the actual URL. -->
+            <a href="research.html" class="button">Research</a>
+        </div>
+    </div>
+</body>
+</html>

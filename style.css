@@ -1,0 +1,66 @@
+/* Basic styling for the entire page */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Font similar to LaTeX */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Changed to a very light grey */
+    color: #333; /* Dark grey text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure it takes full viewport height */
+}
+
+/* Container for content to center the block, but text inside is left-aligned */
+.container {
+    background: #f8f8f8; /* White background for the content box (keeps content readable) */
+    padding: 40px;
+    border-radius: 0; /* No rounded corners */
+    box-shadow: none; /* No shadow */
+    max-width: 600px; /* Max width for readability */
+    width: 90%; /* Responsive width */
+    margin: 20px; /* Margin around the container */
+    text-align: left; /* Text aligned to the left */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #333; /* Simple dark grey for heading */
+    margin-bottom: 20px;
+    font-size: 1.1em; /* Set to the same font size as paragraphs */
+}
+
+/* Styling for paragraphs */
+p {
+    margin-bottom: 25px;
+    font-size: 1.1em; /* Base font size */
+    line-height: 1.8;
+}
+
+/* Styling for the download link */
+.button {
+    display: inline; /* Make it behave like a text link */
+    background-color: transparent; /* No background color */
+    color: #007bff; /* Blue text color for the link */
+    padding: 0; /* No padding */
+    text-decoration: underline; /* Underline the link */
+    border-radius: 0; /* No rounded corners */
+    font-weight: normal; /* Normal font weight */
+    font-size: 1.1em; /* Same font size as paragraphs */
+    transition: color 0.3s ease; /* Smooth hover effect for color */
+    box-shadow: none; /* No shadow */
+}
+
+.button:hover {
+    color: #0056b3; /* Darker blue on hover */
+    background-color: transparent; /* Ensure no background on hover */
+    text-decoration: none; /* Remove underline on hover for a subtle effect */
+}
+
+/* Styling for the footer text */
+.footer-text {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d; /* Lighter grey for footer */
+}
